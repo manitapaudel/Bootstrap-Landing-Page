@@ -65,4 +65,19 @@ body {
       }
     }
   }
+  .contact {
+    // color: black;
+    color: rgba(62, 181, 62, 1);
+
+    .form-control {
+      padding: 1rem;
+      input {
+        margin-top: 2rem;
+      }
+      p {
+        margin-top: 2rem;
+        text-align: left;
+      }
+    }
+  }
 }

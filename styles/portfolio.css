@@ -82,4 +82,10 @@ html .contact .form-control p,
 body .contact .form-control p {
   margin-top: 2rem;
   text-align: left;
+}
+html footer,
+body footer {
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
 }/*# sourceMappingURL=portfolio.css.map */

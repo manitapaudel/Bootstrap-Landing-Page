@@ -1,0 +1,68 @@
+@mixin color-gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(62, 181, 62, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+html,
+body {
+  color: white;
+  // height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+
+  .navbar {
+    background-color: white !important;
+    .nav-link {
+      color: rgba(62, 181, 62, 1) !important;
+    }
+  }
+
+  .page-header {
+    margin-top: 4rem;
+  }
+  .gradient {
+    @include color-gradient();
+  }
+  .features {
+    margin-top: 4rem;
+    ul {
+      list-style-type: none;
+      padding-left: 2rem;
+      .ri-checkbox-circle-line {
+        margin-right: 5px;
+      }
+    }
+  }
+  .icons {
+    color: black;
+    .icon {
+      padding: 0.75rem;
+      border-radius: 50%;
+      color: white;
+    }
+    h3 {
+      margin-top: 2rem;
+    }
+  }
+  .gallery {
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  img {
+    border-radius: 5%;
+  }
+  .services {
+    .col-md-6 {
+      margin-top: 2rem;
+      h1 {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

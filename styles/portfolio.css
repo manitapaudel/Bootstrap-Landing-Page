@@ -1,0 +1,68 @@
+html,
+body {
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+html .navbar,
+body .navbar {
+  background-color: white !important;
+}
+html .navbar .nav-link,
+body .navbar .nav-link {
+  color: #3eb53e !important;
+}
+html .page-header,
+body .page-header {
+  margin-top: 4rem;
+}
+html .gradient,
+body .gradient {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #3eb53e 35%, #00d4ff 100%);
+}
+html .features,
+body .features {
+  margin-top: 4rem;
+}
+html .features ul,
+body .features ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+html .features ul .ri-checkbox-circle-line,
+body .features ul .ri-checkbox-circle-line {
+  margin-right: 5px;
+}
+html .icons,
+body .icons {
+  color: black;
+}
+html .icons .icon,
+body .icons .icon {
+  padding: 0.75rem;
+  border-radius: 50%;
+  color: white;
+}
+html .icons h3,
+body .icons h3 {
+  margin-top: 2rem;
+}
+html .gallery,
+body .gallery {
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+}
+html img,
+body img {
+  border-radius: 5%;
+}
+html .services .col-md-6,
+body .services .col-md-6 {
+  margin-top: 2rem;
+}
+html .services .col-md-6 h1,
+body .services .col-md-6 h1 {
+  margin-top: 1rem;
+}/*# sourceMappingURL=portfolio.css.map */
